@@ -6,12 +6,12 @@ public class ThirdPersonController : MonoBehaviour {
 	[Header("Movement Settings")]
 	public float mouseSensitivity = 1f;
 	public float moveSpeed = 7f;
-	public float jumpHeight = 4f;
+	public float jumpHeight = 8f;
 	public int maxJumps = 2;
 	public float viewRange = 89.9f;
 	public float gravityFactor = 2f;
 	public LayerMask groundMask;
-	public float groundedTolerance = 0.04f;
+	public float groundedTolerance = 0.1f;
 	public float slopeCheckDist = 0.1f;
 	public float slopeForce = 2f;
 
